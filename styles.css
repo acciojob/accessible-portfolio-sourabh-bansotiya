@@ -1,2 +1,13 @@
 
 /* Your CSS Code here. */
+#pic{
+	width: 250px;
+	background-color: gray;
+	border-color: green;
+	border-width: 20px;
+}
+#name{
+	background-color: gray;
+	font: italic;
+	color: goldenrod;
+}

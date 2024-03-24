@@ -1,13 +1,31 @@
 
 /* Your CSS Code here. */
-#pic{
-	width: 250px;
-	background-color: gray;
-	border-color: green;
-	border-width: 20px;
+/* Your CSS Code here. */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
-#name{
-	background-color: gray;
-	font: italic;
-	color: goldenrod;
+
+header, nav, main {
+    margin: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: blue;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }

@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 
+<!DOCTYPE html>
+
 <html>
 
 <head>
@@ -8,26 +10,39 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<img role="figure" id = "pic" alt="My Photo" src = "https://scontent.fbho4-1.fna.fbcdn.net/v/t1.6435-9/133442126_2718389611808945_6544550187305655267_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=7a1959&_nc_ohc=ZiDshATLGS0AX-5iSCN&_nc_ht=scontent.fbho4-1.fna&oh=00_AfArSXfKMpJeM3hSeOOwfCwhB9A1BkFg1fXhnl3em9jKvw&oe=66003B89" /img>
-    <h1 id= "name" role="alert">SOURABH BANSOTIYA</h1>
-	<div role="button">
-	<ul>
-		<li>HTML & CSS</li>
-		<li>JavaScript</li>
-		<li>react</li>
-	</div>
-	<nav role="button" class="menu">
-	<div role="button">
-		<p>Select</p>
-  <ul>
-    <li role="checkbox"><a href="#">Home</a></li>
-    <li role="checkbox"><a href="#">About</a></li>
-    <li role="checkbox"><a href="#">Contact</a></li>
-  </ul>
-	</ul>
-	</div>
-		</nav>
-	<script type="text/javascript" src="./script.js">
+	 
+        <h1 role="heading">My Portfolio</h1>
+
+    <nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#about">About</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="profile.jpg" alt="My Profile Picture" role="img">
+            <p>I am a passionate web developer with a focus on accessibility.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul role="list">
+                <li role="listitem">Project 1</li>
+                <li role="listitem">Project 2</li>
+                <li role="listitem">Project 3</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>You can reach out to me at example@email.com.</p>
+        </section>
+    </main>
+    <script type="text/javascript" src="./script.js">
 </script>
 
 </body>
